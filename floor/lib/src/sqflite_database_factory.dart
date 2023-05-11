@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:path/path.dart';
-import 'package:sqflite_common_ffi/sqflite_ffi.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart' hide databaseFactory;
 import 'package:sqflite_sqlcipher/sqflite.dart';
 
 // infers factory as nullable without explicit type definition
